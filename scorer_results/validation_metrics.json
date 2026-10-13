@@ -1,0 +1,38 @@
+{
+    "Naive Baseline (Eq RPM)": {
+        "MAE": 270.71,
+        "RMSE": 696.74,
+        "WAPE (%)": 11.32,
+        "R2": 0.7915
+    },
+    "Ridge Regression (RPM)": {
+        "MAE": 186.71,
+        "RMSE": 673.28,
+        "WAPE (%)": 7.8,
+        "R2": 0.8054
+    },
+    "XGBoost (RPM)": {
+        "MAE": 152.72,
+        "RMSE": 659.52,
+        "WAPE (%)": 6.38,
+        "R2": 0.8132
+    },
+    "LightGBM (RPM)": {
+        "MAE": 151.8,
+        "RMSE": 644.53,
+        "WAPE (%)": 6.34,
+        "R2": 0.8216
+    },
+    "CatBoost (RPM)": {
+        "MAE": 117.42,
+        "RMSE": 635.13,
+        "WAPE (%)": 4.91,
+        "R2": 0.8268
+    },
+    "Blended Ensemble": {
+        "MAE": 119.97,
+        "RMSE": 635.78,
+        "WAPE (%)": 5.01,
+        "R2": 0.8264
+    }
+}
